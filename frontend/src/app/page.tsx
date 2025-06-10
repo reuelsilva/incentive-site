@@ -1,5 +1,6 @@
 "use client";
 import Header from "./components/Header";
+import Main from "./components/Main";
 import { MenuProvider } from "./context/MenuContext";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
       <MenuProvider>
         <Header/>
       </MenuProvider>
+      <Main/>
     </div>
   );
 }
