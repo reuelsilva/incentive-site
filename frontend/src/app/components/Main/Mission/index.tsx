@@ -6,7 +6,7 @@ import MissionCard from './MissionCard';
 export default function Mission() {
     return (
         <div id="mission">
-            <section>
+            <section className='overflow-hidden'>
                 <div className='p-5 m-4 rounded-xl bg-gradient-to-b from-[#55818633] to-[#d4fbff33] md:p-8 md:mr-14 md:ml-14 md:mt-9 md:mb-9 lg:max-w-228 lg:ml-auto lg:mr-auto'>
                     <h2 className='text-secondary text-lg font-semibold text-center mb-3 lg:text-2xl lg:mb-5'>Missão, Visão e Valores</h2>
                     <div className='flex flex-col gap-5 items-center lg:flex-row lg:justify-center lg:gap-12'>
